@@ -55,7 +55,7 @@
     alt="" style="width: 100px; height: 100px;  margin-left: 190px ; margin-left: 47%; ">
     <h3 style="text-align: center;">เข้าสู่ระบบ</h3>
    
-    <div class="login-page col-sm-3">
+    <div class="login-page col-sm-3 container">
         <form>
             <div class="form-group">
                 <label for="exampleInputEmail1">User name</label>
