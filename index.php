@@ -21,6 +21,12 @@
     href="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/264188773_896935050965530_2711615664391408306_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ud-yoNNHsfsAX_Nfmio&_nc_ht=scontent.furt2-1.fna&oh=03_AVLyCbyhL2Q2gjgtPMsDuVfb6ZCAefoFZeROh45XeOstzw&oe=61F56A69">
 
   <title>หน้าหลัก</title>
+
+
+
+
+
+
 </head>
 
 <body>
@@ -29,27 +35,33 @@
     <nav class="navbar navbar-expand-md navbar-dark " style="height: 15%; background-color:RGB(255, 140, 0);">
 
       <div class="mx-auto order-0">
-        <a href="https://home-main2.herokuapp.com/">
-          <img
-            src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/270242207_1008296189759019_4358413855295773765_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uyrLkkFBVJkAX8ztm-v&_nc_ht=scontent.furt2-1.fna&oh=03_AVJhJihfOtEQpdhPOa17f_Q_xBzcD-OzRscgIpoN7ePYBg&oe=61F48E5D"
-            alt="logo" style="width: 150px; height: 50px; margin-left: 50px;">
+       <a href="https://home-main2.herokuapp.com/">
+        <img
+          src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/270242207_1008296189759019_4358413855295773765_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uyrLkkFBVJkAX8ztm-v&_nc_ht=scontent.furt2-1.fna&oh=03_AVJhJihfOtEQpdhPOa17f_Q_xBzcD-OzRscgIpoN7ePYBg&oe=61F48E5D"
+          alt="logo" style="width: 150px; height: 50px; margin-left: 50px;">
         </a>
+
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="margin-right: 50px;">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white; margin-left: 10px;">จองโต๊ะ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;  margin-left: 10px;">สั่งอาหาร</a>
-          </li>
-        </ul>
-
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <form class="form-inline mt-2 mt-md-0  navbar-nav ml-auto">
+          <ul class="nav justify-content-end ">
+            <li class="nav-item">
+              <a  href="https://app-project7.herokuapp.com/" role="button">
+              <button type="button" class="btn btn-outline-white " style="margin-right: 50px; margin-left: 80px;"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor "
+                  class="bi bi-person-circle " viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg> เข้าสู่ระบบ</button></a>
+            </li>
+          </ul>
+        </form>
       </div>
     </nav>
   </header>
@@ -66,8 +78,8 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="https://www.boardsiam.com/wp-content/uploads/2018/07/DSCF1205.jpg"
-            alt="First slide" style="filter: brightness(50%); width: 100%; height: 68vh;">
+          <img class="first-slide" src="https://www.boardsiam.com/wp-content/uploads/2018/07/DSCF1205.jpg" alt="First slide"
+            style="filter: brightness(50%); width: 100%; height: 68vh;">
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>บรรยากาศรอบร้าน</h1>
@@ -82,8 +94,7 @@
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>บรรยากาศภายในร้าน</h1>
-              <p>ร้านอาหารของเราเป็นร้านอาหารสไตล์มินิมอล ตกแต่งแบบเรียบง่าย สบายตา
-                ทำให้รู้สึกผ่อนคลายขณะนั่งรับประทานอาหาร</p>
+              <p>ร้านอาหารของเราเป็นร้านอาหารสไตล์มินิมอล ตกแต่งแบบเรียบง่าย สบายตา ทำให้รู้สึกผ่อนคลายขณะนั่งรับประทานอาหาร</p>
 
             </div>
           </div>
@@ -95,8 +106,7 @@
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>อาหารสไตล์ไทย</h1>
-              <p>อาหารสไตล์ไทย จะได้รับความเป็นไทยแท้ เน้นวัตถุดิบที่สดใหม่
-                ใส่ใจทุกรายละเอียดในการปรุงอาหารที่มีครบทั้งอาหาร และเครื่องดื่ม</p>
+              <p>อาหารสไตล์ไทย จะได้รับความเป็นไทยแท้ เน้นวัตถุดิบที่สดใหม่ ใส่ใจทุกรายละเอียดในการปรุงอาหารที่มีครบทั้งอาหาร และเครื่องดื่ม</p>
 
             </div>
           </div>
@@ -165,7 +175,7 @@
           <br />
           <h2>ชาเขียว</h2>
           <p class="lead">
-            ชาเขียวมัทฉะ ไทยแท้ 100% คัดสรรใบชาคุณภาพ รสชาติกลมกล่อมนุ่มนวล กลิ่นหอมชาเขียวอ่อนๆ<br />
+            ชาเขียวมัทฉะ ไทยแท้ 100% คัดสรรใบชาคุณภาพ รสชาติกลมกล่อมนุ่มนวล กลิ่นหอมชาเขียวอ่อนๆ<br/>
             <b>ราคา 40 บาท</b>
           </p>
           <br />
@@ -180,11 +190,9 @@
       <hr class="featurette-divider">
       <br />
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">ปูผัดผงกระหรี่ <span class="text-muted"
-              style="font-size: 20px;"><br />ความกลมกล่อมของรสชาติผัดผงกะหรี่ที่ทั้งหอม หวาน มัน และเค็มอย่างลงตัว
-              บวกกับเนื้อปูที่ทั้งแน่นและคำโต</span>
+      <div class="row featurette" >
+        <div class="col-md-7" >
+          <h2 class="featurette-heading" >ปูผัดผงกระหรี่ <span class="text-muted" style="font-size: 20px;"><br />ความกลมกล่อมของรสชาติผัดผงกะหรี่ที่ทั้งหอม หวาน มัน และเค็มอย่างลงตัว บวกกับเนื้อปูที่ทั้งแน่นและคำโต</span>
           </h2>
           <p class="lead">
             <b>ราคา 260 บาท</b>
@@ -203,8 +211,7 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">ต้มยำปลากระพง <span class="text-muted"
-              style="font-size: 20px;"><br />ต้มยําปลากระพง สูตรเด็ด ร้อนๆแซ่บๆ ได้รับรสชาติแบบไทยแท้ๆ</span>
+          <h2 class="featurette-heading">ต้มยำปลากระพง <span class="text-muted" style="font-size: 20px;"><br />ต้มยําปลากระพง สูตรเด็ด ร้อนๆแซ่บๆ ได้รับรสชาติแบบไทยแท้ๆ</span>
           </h2>
           <p class="lead">
             <b>ราคา 100 บาท</b>
@@ -223,9 +230,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">กุ้งอบวุ้นเส้น <span class="text-muted"
-              style="font-size: 20px;"><br />วุ้นเส้นก็สุกกำลังดีไม่เหนียวและไม่เละจนเกินไป หอมกลิ่นเครื่องเทศที่ใส่มา
-              รสชาติกลมกล่อมกำลังดี</span></h2>
+          <h2 class="featurette-heading">กุ้งอบวุ้นเส้น <span class="text-muted" style="font-size: 20px;"><br />วุ้นเส้นก็สุกกำลังดีไม่เหนียวและไม่เละจนเกินไป หอมกลิ่นเครื่องเทศที่ใส่มา รสชาติกลมกล่อมกำลังดี</span></h2>
           <p class="lead">
             <b> ราคา 160บาท</b>
           </p>
