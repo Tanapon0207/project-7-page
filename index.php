@@ -27,38 +27,38 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark " style="height: 15%; background-color:RGB(255, 140, 0);">
- 
+
       <div class="mx-auto order-0">
         <a href="https://home-main2.herokuapp.com/">
-       <img
-          src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/270242207_1008296189759019_4358413855295773765_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uyrLkkFBVJkAX8ztm-v&_nc_ht=scontent.furt2-1.fna&oh=03_AVJhJihfOtEQpdhPOa17f_Q_xBzcD-OzRscgIpoN7ePYBg&oe=61F48E5D"
-          alt="logo" style="width: 150px; height: 50px; margin-left: 50px;">
+          <img
+            src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/270242207_1008296189759019_4358413855295773765_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uyrLkkFBVJkAX8ztm-v&_nc_ht=scontent.furt2-1.fna&oh=03_AVJhJihfOtEQpdhPOa17f_Q_xBzcD-OzRscgIpoN7ePYBg&oe=61F48E5D"
+            alt="logo" style="width: 150px; height: 50px; margin-left: 50px;">
         </a>
-      
-      
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="margin-right: 50px;">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: white; margin-left: 10px;">จองโต๊ะ</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: white;  margin-left: 10px;">สั่งอาหาร</a>
-              </li>
-          </ul>
-          
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white; margin-left: 10px;">จองโต๊ะ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: white;  margin-left: 10px;">สั่งอาหาร</a>
+          </li>
+        </ul>
+
       </div>
-  </nav>
+    </nav>
   </header>
 
 
 
   <main role="main">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -66,38 +66,37 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="https://s.isanook.com/wo/0/ud/36/180693/food.jpg" alt="First slide"
-            style="filter: brightness(50%); width: 100%; height: 90vh;">
+          <img class="first-slide" src="https://www.boardsiam.com/wp-content/uploads/2018/07/DSCF1205.jpg"
+            alt="First slide" style="filter: brightness(50%); width: 100%; height: 68vh;">
           <div class="container">
             <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
-                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>บรรยากาศรอบร้าน</h1>
+              <p>บรรยากาศรอบร้านจะมีต้นไม้ให้ความร่มรื่นบรรยากาศเย็นสบาย ลูกค้าสามารถมาถ่ายรูป และสามารถเช็คอินได้</p>
 
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <img class="second-slide" src="http://k.lnwfile.com/ehqqnp.jpg" alt="Second slide"
-            style="filter: brightness(50%); width: 100%; height: 90vh;">
+            style="filter: brightness(50%); width: 100%; height: 68vh;">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
-                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <div class="carousel-caption text-left">
+              <h1>บรรยากาศภายในร้าน</h1>
+              <p>ร้านอาหารของเราเป็นร้านอาหารสไตล์มินิมอล ตกแต่งแบบเรียบง่าย สบายตา
+                ทำให้รู้สึกผ่อนคลายขณะนั่งรับประทานอาหาร</p>
 
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <img class="third-slide"
-            src="https://shopee.co.th/blog/wp-content/uploads/2021/03/%E0%B9%80%E0%B8%A1%E0%B8%99%E0%B8%B9%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99.jpg"
-            alt="Third slide" style="filter: brightness(50%); width: 100%; height: 90vh; ">
+            src="https://api.soimilk.com/sites/default/files/u143056/16427675_591513004393035_4096197125237905449_n.jpg"
+            alt="Third slide" style="filter: brightness(50%); width: 100%; height: 68vh; ">
           <div class="container">
-            <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
-                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <div class="carousel-caption text-left">
+              <h1>อาหารสไตล์ไทย</h1>
+              <p>อาหารสไตล์ไทย จะได้รับความเป็นไทยแท้ เน้นวัตถุดิบที่สดใหม่
+                ใส่ใจทุกรายละเอียดในการปรุงอาหารที่มีครบทั้งอาหาร และเครื่องดื่ม</p>
 
             </div>
           </div>
@@ -122,58 +121,54 @@
     <h3 style="text-align: center;">หน้าหลัก</h3>
     <h3 style="text-align: center;">อาหารเเละเครื่องดื่มที่เเนะนำ</h3>
     <br />
-    <br/>
+    <br />
     <div class="container">
 
       <div class="row">
         <div class="col-lg-4">
           <img class="rounded-circle" src="https://f.ptcdn.info/971/020/000/1404712816-IMG2271JPG-o.jpg"
-            alt="Generic placeholder image" style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%; ">
+            alt="Generic placeholder image"
+            style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%; ">
 
           <br />
           <br />
           <h2>ชาไทย</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit expedita sint non! Iste
-            corrupti sint beatae
-            error sed reprehenderit facilis quae molestiae quas illum, earum consequuntur ullam enim fugiat
-            dolorum.<br />
+          <p class="lead">มีกลิ่นหอมนุ่ม หวานกลมกล่อม ชุ่มคอ หอมกลิ่นชาแบบโบราณแท้ๆ<br />
             <b>ราคา 40 บาท</b>
 
           </p>
-          <br/>
+          <br />
         </div>
 
 
         <div class="col-lg-4">
           <img class="rounded-circle"
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/THITE2020072309184269774/photo/menueditor_item_d75f3fab20b54d9daca0b7f01dc2bcd0_1595495913668631271.jpg"
-            alt="Generic placeholder image" style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%;">
+            alt="Generic placeholder image"
+            style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%;">
           <br />
           <br />
           <h2>โกโก้</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis adipisci aperiam dolores ullam
-            consectetur provident, asperiores magni mollitia. Odit at quibusdam unde repellendus blanditiis eveniet,
-            nihil nemo est perferendis?<br />
+            ที่ร้านใช้ ผงโกโก้ Dutch-Process ทำให้มีรสชาติอร่อย นุ่มลิ้น ไม่มีรสเปรียว <br />
             <b>ราคา 40 บาท</b>
           </p>
-          <br/>
+          <br />
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
           <img class="rounded-circle"
             src="https://scontent.furt3-1.fna.fbcdn.net/v/t1.15752-9/252407315_284102650256894_8230365413976222481_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHHDMmbBP9vD8igLcOm8DKCwYS3USebfRjBhLdRJ5t9GA5sSnTZ5fh3Im1Cz7hlEfGFOIAYAGjU0TujzM69RwG6&_nc_ohc=r9Aqfu0NuBAAX8gg6Dd&_nc_ht=scontent.furt3-1.fna&oh=03_AVLIS9gaiUUvIW9coCzSRL9HAjNOMfMLyiQUwYw3H_0iKg&oe=61E91FC1"
-            alt="Generic placeholder image" style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%;">
+            alt="Generic placeholder image"
+            style="width: 160px; height: 160px; box-shadow: 10px 5px 10px grey; margin-left: 30%;">
           <br />
           <br />
           <h2>ชาเขียว</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minima quaerat est veniam corrupti placeat
-            incidunt labore harum quisquam exercitationem ipsa, quis ex cumque cupiditate laboriosam suscipit delectus
-            vitae dolores!<br />
+            ชาเขียวมัทฉะ ไทยแท้ 100% คัดสรรใบชาคุณภาพ รสชาติกลมกล่อมนุ่มนวล กลิ่นหอมชาเขียวอ่อนๆ<br />
             <b>ราคา 40 บาท</b>
           </p>
-          <br/>
+          <br />
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -187,8 +182,9 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">ปูผัดผงกระหรี่. <span class="text-muted"><br />Stir Fried Crab with Curry
-              Powder.</span>
+          <h2 class="featurette-heading">ปูผัดผงกระหรี่ <span class="text-muted"
+              style="font-size: 20px;"><br />ความกลมกล่อมของรสชาติผัดผงกะหรี่ที่ทั้งหอม หวาน มัน และเค็มอย่างลงตัว
+              บวกกับเนื้อปูที่ทั้งแน่นและคำโต</span>
           </h2>
           <p class="lead">
             <b>ราคา 260 บาท</b>
@@ -197,7 +193,8 @@
         <div class="col-md-5">
           <img
             src="https://www.proudofficials.com/application/files/cache/thumbnails/11379623aad9ff6a00488535f149d32d.jpg"
-            alt="ภาพปูผัดผงกระหรี่" style="width: 100%; height: 60vh; height: 100%; box-shadow: 10px 5px 10px grey;  border-radius: 20px;">
+            alt="ภาพปูผัดผงกระหรี่"
+            style="width: 100%; height: 60vh; height: 100%; box-shadow: 10px 5px 10px grey;  border-radius: 20px;">
         </div>
       </div>
       <br />
@@ -206,7 +203,8 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">ต้มยำปลากระพง. <span class="text-muted"><br />Tom Yum Snapper.</span>
+          <h2 class="featurette-heading">ต้มยำปลากระพง <span class="text-muted"
+              style="font-size: 20px;"><br />ต้มยําปลากระพง สูตรเด็ด ร้อนๆแซ่บๆ ได้รับรสชาติแบบไทยแท้ๆ</span>
           </h2>
           <p class="lead">
             <b>ราคา 100 บาท</b>
@@ -225,15 +223,17 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">กุ้งอบวุ้นเส้น. <span class="text-muted"><br />Baked shrimp with glass
-              noodles.</span></h2>
+          <h2 class="featurette-heading">กุ้งอบวุ้นเส้น <span class="text-muted"
+              style="font-size: 20px;"><br />วุ้นเส้นก็สุกกำลังดีไม่เหนียวและไม่เละจนเกินไป หอมกลิ่นเครื่องเทศที่ใส่มา
+              รสชาติกลมกล่อมกำลังดี</span></h2>
           <p class="lead">
             <b> ราคา 160บาท</b>
           </p>
         </div>
         <div class="col-md-5">
           <img src="https://img.wongnai.com/p/1968x0/2020/05/27/5fc43389ce4640988abae922c1239c34.jpg"
-            alt="ภาพกุ้งอบวุ้นเส้น" style="width: 100%; height: 60vh; height: 90%; box-shadow: 10px 5px 10px grey;  border-radius: 20px;">
+            alt="ภาพกุ้งอบวุ้นเส้น"
+            style="width: 100%; height: 60vh; height: 90%; box-shadow: 10px 5px 10px grey;  border-radius: 20px;">
         </div>
       </div>
 
@@ -253,7 +253,7 @@
 
 
 <!--footer-->
-<footer class=" text-center text-white " style="background-color:#FF8C00;" >
+<footer class=" text-center text-white " style="background-color:#FF8C00;">
 
   <!-- Grid container -->
   <div class="container p-0 pb-0" style="padding-top: 500px;">
