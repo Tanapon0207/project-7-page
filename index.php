@@ -102,7 +102,7 @@
 </body>
 <br />
 <!--footer-->
-<footer class=" text-center text-white " style="background-color:#FF8C00; height: 300px;">
+<footer class=" text-center text-white  fixed-bottom" style="background-color:#FF8C00; ">
     <!-- Grid container -->
     <div class="container p-0 pb-0" style="padding-top: 500px;">
         <img src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/264188773_896935050965530_2711615664391408306_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ud-yoNNHsfsAX_Nfmio&_nc_ht=scontent.furt2-1.fna&oh=03_AVLyCbyhL2Q2gjgtPMsDuVfb6ZCAefoFZeROh45XeOstzw&oe=61F56A69"
