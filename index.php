@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-md navbar-dark " style="height: 15%; background-color:RGB(255, 140, 0);">
 
       <div class="mx-auto order-0">
-       <a href="หน้าหลัก.html">
+       <a href="https://home-main2.herokuapp.com/">
         <img
           src="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/270242207_1008296189759019_4358413855295773765_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uyrLkkFBVJkAX8ztm-v&_nc_ht=scontent.furt2-1.fna&oh=03_AVJhJihfOtEQpdhPOa17f_Q_xBzcD-OzRscgIpoN7ePYBg&oe=61F48E5D"
           alt="logo" style="width: 150px; height: 50px; margin-left: 50px;">
@@ -51,7 +51,7 @@
         <form class="form-inline mt-2 mt-md-0  navbar-nav ml-auto">
           <ul class="nav justify-content-end ">
             <li class="nav-item">
-              <a  href="เข้าสู่ระบบ.html" role="button">
+              <a  href="https://app-project7.herokuapp.com/" role="button">
               <button type="button" class="btn btn-outline-white " style="margin-right: 50px; margin-left: 80px;"><svg
                   xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor "
                   class="bi bi-person-circle " viewBox="0 0 16 16">
