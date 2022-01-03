@@ -40,7 +40,7 @@
               <span class="navbar-toggler-icon"></span>
           </button>
       </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="margin-right: 50px;">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                   <a class="nav-link" href="#" style="color: white; margin-left: 10px;">จองโต๊ะ</a>
