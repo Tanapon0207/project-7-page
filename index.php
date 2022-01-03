@@ -87,7 +87,8 @@
                 </div>
                 <div class="text-center p-1">
                     คุณคือผู้ใช้ใหม่ ?
-                    <a class="text-primary" href="ลงทะเบียน.html"> ลงทะเบียน</a>
+                    <a class="text-primary" href="https://sheltered-bayou-62694.herokuapp.com/?fbclid=IwAR1ebWP_gieUxBN2-D-fsKlqrVfIRF62ssT7wZQL2sMcB8TxHDAEi-rPaTg
+                    "> ลงทะเบียน</a>
                 </div>
                 <div class="form-check" style="text-align: center;">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
