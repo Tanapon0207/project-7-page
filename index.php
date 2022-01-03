@@ -19,7 +19,7 @@
     crossorigin="anonymous"></script>
   <link rel="icon"
     href="https://scontent.furt2-1.fna.fbcdn.net/v/t1.15752-9/264188773_896935050965530_2711615664391408306_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=ud-yoNNHsfsAX_Nfmio&_nc_ht=scontent.furt2-1.fna&oh=03_AVLyCbyhL2Q2gjgtPMsDuVfb6ZCAefoFZeROh45XeOstzw&oe=61F56A69">
-
+<script src="เข้าสู่ระบบ.js"></script>
   <title>เข้าสู่ระบบ</title>
 </head>
 
@@ -50,67 +50,62 @@
 
 
   <script>
+
+    function statusChangeCallback(response) {  // Called with the results from FB.getLoginStatus().
+      console.log('statusChangeCallback');
+      console.log(response);                   // The current login status of the person.
+      if (response.status === 'connected') {   // Logged into your webpage and Facebook.
+        testAPI();  
+      } else {                                 // Not logged into your webpage or we are unable to tell.
+        document.getElementById('status').innerHTML = 'Please log ' +
+          'into this webpage.';
+      }
+    }
+  
+  
+    function checkLoginState() {               // Called when a person is finished with the Login Button.
+      FB.getLoginStatus(function(response) {   // See the onlogin handler
+        statusChangeCallback(response);
+      });
+    }
+  
+  
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '259407919479322',
-        cookie     : true,
-        xfbml      : true,
-        version    : 'v3.1'
+        cookie     : true,                     // Enable cookies to allow the server to access the session.
+        xfbml      : true,                     // Parse social plugins on this webpage.
+        version    : '{api-version}'           // Use this Graph API version for this call.
       });
-        
-      FB.AppEvents.logPageView();   
-        
+  
+  
+      FB.getLoginStatus(function(response) {   // Called after the JS SDK has been initialized.
+        statusChangeCallback(response);        // Returns the login status.
+      });
     };
-
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-
-
-
-     var fbLoginStatus = false;
-function checkFbLoginState() {
-  FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-  });
-}
-
-function statusChangeCallback(response) {
-  if(fbLoginStatus == false) {  
-    if (response.status == 'connected') {
-      fbLoginStatus = true;
-      getCurrentUserInfo(response);
-    } else {
-      FB.login(function(response) {
-        if (response.authResponse){
-          fbLoginStatus = true;
-          getCurrentUserInfo(response);
-        } else {
-          console.log('Auth failed.');
-        }
-      }, {scope: 'public_profile,email'});
+   
+    function testAPI() {                      // Testing Graph API after login.  See statusChangeCallback() for when this call is made.
+      console.log('Welcome!  Fetching your information.... ');
+      FB.api('/me', function(response) {
+        console.log('Successful login for: ' + response.name);
+        document.getElementById('status').innerHTML =
+          'Thanks for logging in, ' + response.name + '!';
+      });
     }
-  } else if(fbLoginStatus == true) {
-    getCurrentUserInfo(response);
-  }   
-}
-
-function getCurrentUserInfo() {   
-  FB.api('/me?fields=name,email,first_name,last_name,id', function(userInfo) {
-    var result = '';
-    result+= "ID: "+userInfo.id+"\r";
-    result+= "First Name: "+userInfo.first_name+"\r";
-    result+= "Last Name: "+userInfo.last_name+"\r";
-    result+= "E-mail: "+userInfo.email+"\r";
-    document.getElementById("result").text = result;
-  });   
-}
+  
   </script>
   
+  
+  <!-- The JS SDK Login Button -->
+  
+  <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+  </fb:login-button>
+  
+  <div id="status">
+  </div>
+  
+  <!-- Load the JS SDK asynchronously -->
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 
 
@@ -136,7 +131,8 @@ function getCurrentUserInfo() {
   <div class="login-page col-sm-3 container">
     <form>
       <div class="form-group">
-        <button onclick="checkFbLoginState();">Login with Facebook</button>
+        <button onclick="checkFbLoginState();" id="login">Login with Facebook</button>
+        <button style="display: none;" id="logout">Logout</button>
         <br/>
         <label for="exampleInputEmail1">User name</label>
         <input type="text" class="form-control" id="username1" aria-describedby="emailHelp" placeholder="ชื่อผู้ใช้"
